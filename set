@@ -2,3 +2,5 @@
 zypper ar -f -n packman http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
 #Драйвера NVIDIA
 zypper ar -f -n nvidia https://download.nvidia.com/opensuse/tumbleweed nvidia 
+#Skype
+zypper ar -f -n skype https://repo.skype.com/rpm/stable/ skype
