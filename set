@@ -6,6 +6,10 @@ zypper ar -f -n packman http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_
 zypper ar -f -n nvidia https://download.nvidia.com/opensuse/tumbleweed nvidia 
 #Skype
 zypper ar -f -n skype https://repo.skype.com/rpm/stable/ skype
+#Установка chromium-pepper
+zypper addrepo https://download.opensuse.org/repositories/home:lbssousa:chromium/openSUSE_Tumbleweed/home:lbssousa:chromium.repo
+zypper install chromium-pepper-flash
+
 
 
 zypper refresh
