@@ -1,1 +1,4 @@
-
+#Packman
+zypper ar -f -n packman http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
+#Драйвера NVIDIA
+zypper ar -f -n nvidia https://download.nvidia.com/opensuse/tumbleweed nvidia 
