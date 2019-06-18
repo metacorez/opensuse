@@ -12,3 +12,7 @@ zypper refresh
 
 zypper in skypeforlinux
 
+#Yandex Browser
+wget https://cache-ams06.cdn.yandex.net/download.cdn.yandex.net/browser/yandex/ru/beta/Yandex.rpm
+zypper in Yandex.rpm
+
