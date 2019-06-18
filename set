@@ -1,3 +1,5 @@
+#Отключить nouveau
+#echo "blacklist nouveau" >> /etc/modprobe.d/50-blacklist.conf && mkinitrd && reboot
 #Packman
 zypper ar -f -n packman http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
 #Драйвера NVIDIA
