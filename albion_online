@@ -1,0 +1,8 @@
+ sudo zypper in libSDL2-2_0-0 
+ sudo zypper in sndio
+ sudo zypper in libsndio7_0 
+ sudo ln -s /usr/lib64/libsndio.so.7.0 /usr/lib64/libsndio.so.6.1
+ ldd ~/albiononline/game_x64/Albion-Online_Data/Plugins/x86_64/libSDL2-2.0.so.0
+
+ 
+
