@@ -7,8 +7,8 @@ zypper ar -f -n nvidia https://download.nvidia.com/opensuse/tumbleweed nvidia
 #Skype
 zypper ar -f -n skype https://repo.skype.com/rpm/stable/ skype
 
-#wine-mono
-zypper ar -f -n wine-mono https://download.opensuse.org/repositories/Emulators:Wine/openSUSE_Tumbleweed/Emulators:Wine.repo wine-mono
+#wine
+zypper ar -f -n wine https://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_Tumbleweed/ wine
 
 
 
