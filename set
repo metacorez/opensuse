@@ -10,6 +10,9 @@ zypper ar -f -n skype https://repo.skype.com/rpm/stable/ skype
 #wine
 zypper ar -f -n wine https://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_Tumbleweed/ wine
 
+#autoupdate
+zypper in yast2-online-update-configuration
+yast2-online-update-configuration
 
 
 zypper refresh
