@@ -12,6 +12,11 @@ https://github.com/doitsujin/dxvk/releases
 Установка
 sh setup_dxvk.sh install
 
+Можно так попробовать установить
+sudo zypper ar https://download.opensuse.org/repositories/home:/xenonpk:/vulkan/openSUSE_Tumbleweed/ dxvk
+sudo zypper ref
+WINEPREFIX=~/.wine winedxvk64  install
+
 
 
 
